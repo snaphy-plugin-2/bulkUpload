@@ -13,8 +13,11 @@ module.exports = function( server, databaseObj, helper, packageObj) {
 	 * It is a constructor and is populated once the server starts.
 	 * @return {[type]} [description]
 	 */
-	var init = function(){
 
+	const onZipUpload = require("./onZipUpload")(server, databaseObj, helper, packageObj);
+
+	var init = function(){
+		onZipUpload.init();
 	};
 
 

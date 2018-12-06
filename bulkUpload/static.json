@@ -12,7 +12,15 @@
   "settings": ["/bulkUpload/admin-panel-setting.js"],
   "bodystructure": {
     "asidebarHook": [],
-    "sidebarHook": [],
+    "sidebarHook": [
+      {
+        "path":"views/sidebarHook.html",
+        "acl":{
+          "allow":[],
+          "reject":[]
+        }
+      }
+    ],
     "headerHook": [],
     "footerHook":[]
   }
