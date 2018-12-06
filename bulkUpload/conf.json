@@ -1,0 +1,7 @@
+{
+  "name": "bulkUpload",
+  "description": "Plugin to upload bulk data and attach it to respective model.",
+  "routeExposure": "/bulkUpload",
+  "activate": true,
+  "pluginDependencies": {}
+}

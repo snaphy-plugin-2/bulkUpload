@@ -1,0 +1,19 @@
+{
+  "css": {
+    "/bulkUpload/style/bulkUpload.css": "bulkUploadCss"
+  },
+  "js": {
+    "/bulkUpload/scripts/routes/bulkUpload.js": "bulkUploadRoute",
+    "/bulkUpload/scripts/controllers/bulkUpload.js": "bulkUploadController"
+  },
+  "moduleDependencies":{
+
+  },
+  "settings": ["/bulkUpload/admin-panel-setting.js"],
+  "bodystructure": {
+    "asidebarHook": [],
+    "sidebarHook": [],
+    "headerHook": [],
+    "footerHook":[]
+  }
+}
